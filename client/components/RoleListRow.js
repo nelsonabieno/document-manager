@@ -3,7 +3,6 @@ import {Modal, Button, Row, Input} from 'react-materialize';
 const RoleListRow = ({ role }) => {
 
   return (
-
         <tr>
             <td>{role.id}</td>
             <td>{role.title}</td>
